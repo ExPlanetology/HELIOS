@@ -139,6 +139,8 @@ species_lib["Si+"] = Species_db(name="Si+", fc_name="Si1+", weight=28.085)
 species_lib["Mg+"] = Species_db(name="Mg+", fc_name="Mg1+", weight=24.305)
 species_lib["Na+"] = Species_db(name="Na+", fc_name="Na1+", weight=22.989769)
 species_lib["O+"] = Species_db(name="O+", fc_name="O1+", weight=15.999)
+species_lib["Al+"] = Species_db(name="Al+", fc_name="Al1+", weight=26.9815385)
+species_lib["Ca+"] = Species_db(name="Ca+", fc_name="Ca1+", weight=40.078)
 
 # don't forget the electrons! (they may be tiny but they are important)
 species_lib["e-"] = Species_db(name="e-", fc_name="e-", weight=5.4858e-4)
