@@ -9,15 +9,15 @@ repository = "https://github.com/exoclime/HELIOS"
 include = ["helios/kernels.cu"]
 
 [tool.poetry.dependencies]
-astropy= "7.2.0"
-h5py= "3.16.0"
-matplotlib= "3.10.8"
-numba= "0.64.0"
-numpy= "2.4.3"
+astropy= ">=7.0.0"
+h5py= ">=3.0.0"
+matplotlib= ">=3.0.0"
+numba= ">=0.64.0"
+numpy= ">=1.24"
 pycuda= "2026.1"
-scipy= "1.17.1"
-source= "1.2.0"
-wget= "3.2"
+scipy= ">=1.0.0"
+source= ">=1.0.0"
+wget= ">=3.0.0"
 
 [build-system]
 requires = ["poetry-core"]
